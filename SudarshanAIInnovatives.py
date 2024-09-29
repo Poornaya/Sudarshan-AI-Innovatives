@@ -10,7 +10,7 @@ st.set_page_config(
 # Title of the app with logo
 col1, col2 = st.columns([1, 4])  # Create two columns
 with col1:
-    st.image("C:/Users/Admin/Downloads/Designer (12).jpeg", width=150)  # Replace with your logo's path
+    st.image(Designer (12).jpeg, width=150)  # Replace with your logo's path
 with col2:
     st.title("Sudarshan AI Innovatives")
     st.markdown("<h5 style='text-align: center;'>Empowering Businesses with AI Solutions</h5>", unsafe_allow_html=True)
@@ -62,7 +62,7 @@ elif options == "Services":
     # LearnMate AI section
     col1, col2 = st.columns([1, 3])  # Create two columns for icon and description
     with col1:
-        st.image("C:/Users/Admin/Downloads/chemistry.png", width=100)  # Replace with your icon's path
+        st.image("chemistry.png", width=100)  # Replace with your icon's path
     with col2:
         st.markdown("### LearnMate AI")
         st.write("""
@@ -74,7 +74,7 @@ elif options == "Services":
 
     # Add a download button for the flyer PDF
     st.markdown("#### Download Flyer")
-    with open("C:/Users/Admin/Downloads/LEARNMATE AI.pdf", "rb") as file:  # Replace with your flyer PDF path
+    with open("LearnMate_Flyer.pdf", "rb") as file:  # Replace with your flyer PDF path
         st.download_button(
             label="Download Flyer",
             data=file,
@@ -114,7 +114,7 @@ elif options == "About":
 
     # Display the image in the first column
     with col1:
-        st.image("C:/Users/Admin/Downloads/WhatsApp Image 2024-04-15 at 2.07.54 AM.jpeg", width=250)  # Replace with your image path
+        st.image("WhatsApp Image 2024-04015 at 2.07.54 AM.jpeg", width=250)  # Replace with your image path
 
     # Display information about the founder in the second column
     with col2:
@@ -145,7 +145,7 @@ elif options == "About":
     st.write("You can download a full version of my CV using the link below:")
 
     # Add a download button for the CV
-    with open("C:/Users/Admin/Downloads/Curriculum Vitae (CV).pdf", "rb") as file:
+    with open("Founder_CV.pdf", "rb") as file:
         btn = st.download_button(
             label="Download CV",
             data=file,
