@@ -10,7 +10,7 @@ st.set_page_config(
 # Title of the app with logo
 col1, col2 = st.columns([1, 4])  # Create two columns
 with col1:
-    st.image(Designer (12).jpeg, width=150)  # Replace with your logo's path
+    st.image(Designer(12).jpeg, width=150)  # Replace with your logo's path
 with col2:
     st.title("Sudarshan AI Innovatives")
     st.markdown("<h5 style='text-align: center;'>Empowering Businesses with AI Solutions</h5>", unsafe_allow_html=True)
